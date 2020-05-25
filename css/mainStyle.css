@@ -6,6 +6,24 @@ body
     background-size: 100%;
 }
 
+header
+{
+    text-align: center;
+}
+
+.headText
+{
+    color: white;
+    font-size: 28px;
+}
+
+.mainClock
+{
+    font-size: 22px;
+    color: white;
+    font-style: monospace;
+}
+
 .menu
 {
     position: fixed;
