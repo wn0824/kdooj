@@ -1,0 +1,46 @@
+body
+{
+    background-color: orange;
+    background-image: url('./img/body.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.menu
+{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.menubar
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline;
+}
+
+#toggle,
+.menubar
+{
+    display: none;
+}
+
+.menubar li
+{
+    display: inline;
+}
+
+.menubar li a 
+{
+    text-decoration: none;
+    color: gold;
+    border: thick double yellow;
+}
+
+#toggle:checked +.menubar
+{
+    display: inline;
+}
