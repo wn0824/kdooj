@@ -63,3 +63,56 @@ header
 {
     display: inline;
 }
+
+.bodySection
+{
+    margin-left: 50px;
+}
+
+.mainSection
+{
+    text-align: center;
+}
+
+.content
+{
+    color: white;
+    text-align: center;
+}
+
+.luckyNumber
+{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    padding: 2px;
+}
+
+.luckyNumber th 
+{
+    background-color: gray;
+    font-style: oblique;
+    font-size: 18px;
+}
+
+.luckyNumber td 
+{
+    border: 1px solid white;
+}
+
+.no 
+{
+    width: 20%;
+}
+
+.numbers
+{
+    width: 60%;
+}
+
+.ranking
+{
+    width: 20%;
+}
