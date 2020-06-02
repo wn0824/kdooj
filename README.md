@@ -7,3 +7,6 @@ hello! this is my sketchbook.
  
 2020-05-26<br>
 -Plus Table.<br>
+
+2020-06-02<br>
+-css little arragement(footer, menubar).\n
