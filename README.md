@@ -9,5 +9,6 @@ hello! this is my sketchbook.
 -Plus Table(LuckyNumber).<br>
 
 2020-06-02<br>
--delete Table(LuckyNumber)<br>
+-delete Table(LuckyNumber).<br>
 -css little arragement(footer, menubar).<br>
+-make button in mainSection.<br>
