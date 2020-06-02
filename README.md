@@ -6,4 +6,8 @@ hello! this is my sketchbook.
 -Plus Title Text, Clock js.<br>
  
 2020-05-26<br>
--Plus Table.<br>
+-Plus Table(LuckyNumber).<br>
+
+2020-06-02<br>
+-delete Table(LuckyNumber)<br>
+-css little arragement(footer, menubar).<br>
