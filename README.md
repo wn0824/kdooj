@@ -9,4 +9,5 @@ hello! this is my sketchbook.
 -Plus Table.<br>
 
 2020-06-02<br>
+-delete Table(LuckyNumber)<br>
 -css little arragement(footer, menubar).<br>
