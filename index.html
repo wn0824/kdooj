@@ -17,37 +17,30 @@
         </div>
     </header>
 
-    <div class="header_menubar">
-        <label class="menu" for="toggle">
-            <img src="./css/img/menu.svg" class="menu" alt="메뉴바 열기 닫기" onclick="firstMenubar()">
-        </label>
-        <input type="checkbox" id="toggle" />
-        <nav class="menubar">
-            <ul>
-                <li><a href="./index.html">MainTitle</a></li>
-                <li><a href="#">progress...</a></li>
-                <li><a href="#">progress...</a></li>
-                <li><a href="#">progress...</a></li>
-            </ul>
-        </nav>
+    <div class="menubarDiv">
+        <div class="header_menubar">
+            <label class="menu" for="toggle">
+                <img src="./css/img/menu.svg" class="menu" alt="메뉴바 열기 닫기" onclick="firstMenubar()">
+            </label>
+
+            <input type="checkbox" id="toggle" />
+            <nav class="menubar">
+                <ul>
+                    <li><a href="./index.html">MainTitle</a></li>
+                    <li><a href="#">progress...</a></li>
+                    <li><a href="#">progress...</a></li>
+                    <li><a href="#">progress...</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
-    
+
     <div class="bodySection">
         <section class="mainSection">
             <h1>Simple Test</h1>
         </section>
         <div class="content">
-            <p>Roll the Lucky Dice!</p>
-            <table class="luckyNumber">
-                <tr>
-                    <th class="no">No.</th>
-                    <th class="numbers">Number</th>
-                    <th class="ranking">Ranking</th>
-                </tr>
 
-            </table>
-            <button class="makingNumBtn" onclick="rollDice()">Rolling</button>
-            <button class="diceResetBtn">Reset</button>
         </div>
     </div>
 
@@ -55,6 +48,5 @@
         <p>made in donkuk.joo</p>
     </footer>
     <script src="./js/mainClock.js"></script>
-    <script src="./js/mainDice.js"></script>
 </body>
 </html>

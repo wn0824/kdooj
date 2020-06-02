@@ -33,6 +33,11 @@ header
     background-color: white;
 }
 
+.menubarDiv
+{
+    position: fixed;
+}
+
 .menubar
 {
     padding: 0;
@@ -72,6 +77,7 @@ header
 .mainSection
 {
     text-align: center;
+    color: white;
 }
 
 .content
@@ -80,39 +86,8 @@ header
     text-align: center;
 }
 
-.luckyNumber
+footer 
 {
-    width: 400px;
-    margin: auto;
-    text-align: center;
-    color: white;
-    border: 1px solid white;
-    padding: 2px;
-}
-
-.luckyNumber th 
-{
-    background-color: gray;
-    font-style: oblique;
-    font-size: 18px;
-}
-
-.luckyNumber td 
-{
-    border: 1px solid white;
-}
-
-.no 
-{
-    width: 20%;
-}
-
-.numbers
-{
-    width: 60%;
-}
-
-.ranking
-{
-    width: 20%;
+    bottom: 10px;
+    position: absolute;
 }
