@@ -1,124 +1,260 @@
-body
+@media (min-width: 1025px) 
 {
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    body
+    {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background-color: orange;
+    }
+
+    header
+    {
+        text-align: center;
+    }
+    /* header */
+    .headText
+    {
+        color: white;
+        font-size: 28px;
+    }
+    /* header content */
+    .mainClock span
+    {
+        font-size: 22px;
+        color: white;
+        font-style: monospace;
+    }
+
+
+    /* menubar */
+    .menuIcon
+    {
+        left: 0px;
+        display: inline-block;
+        position: fixed;
+    }
+
+    .menuIcon img
+    {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background-color: #C3BA47;
+    }
+    .slideMenu
+    {
     height: 100%;
-    background-color: orange;
-}
-
-header
-{
-    text-align: center;
-}
-/* header */
-.headText
-{
-    color: white;
-    font-size: 28px;
-}
-/* header content */
-.mainClock span
-{
-    font-size: 22px;
-    color: white;
-    font-style: monospace;
-}
-
-
-/* menubar */
-.menuIcon
-{
-    left: 0px;
-    display: inline-block;
+    width: 0;
     position: fixed;
-}
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    }
+    .slideMenu a 
+    {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    }
 
-.menuIcon img
-{
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    background-color: #C3BA47;
-}
-.slideMenu
-{
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-.slideMenu a 
-{
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.slideMenu a:hover 
-{
-  color: #f1f1f1;
-}
-  
-.slideMenu .closebtn 
-{
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-  
-@media screen and (max-height: 450px) 
-{
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
+    .slideMenu a:hover 
+    {
+    color: #f1f1f1;
+    }
+    
+    .slideMenu .closebtn 
+    {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    }
+    
+    @media screen and (max-height: 450px) 
+    {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+    }
 
 
-/* body content */
-.bodySection
-{
-    width: 100%;
-    height: 800px;
-}
+    /* body content */
+    .bodySection
+    {
+        width: 100%;
+        height: 800px;
+    }
 
-.mainSection
-{
-    text-align: center;
-    padding: 25px;
-    color: white;
-}
+    .mainSection
+    {
+        text-align: center;
+        padding: 25px;
+        color: white;
+    }
 
-.content
-{
-    text-align: center;
-    color: white;
-}
+    .content
+    {
+        text-align: center;
+        color: white;
+    }
 
-.content img 
-{
-    width: auto;
-    height: auto;
-    max-width: 800px;
-    max-height: 600px;
-}
+    .content img 
+    {
+        width: auto;
+        height: auto;
+        max-width: 800px;
+        max-height: 600px;
+    }
 
-/* footer */
-.allFooter 
+    /* footer */
+    .allFooter 
+    {
+        color: white;
+        bottom: 0;
+        width: 100%;
+        height: 80px;
+        background-color: #0C0C0C;
+    }
+}
+/* mobile Portrait CSS */
+@media (min-width: 320px) and (max-width: 480px)
 {
-    color: white;
-    bottom: 0;
-    width: 100%;
-    height: 80px;
-    background-color: #0C0C0C;
+    body
+    {
+        margin: 0;
+        padding: 0;
+        background-color: orange;
+    }
+
+    header
+    {
+        width: auto;
+        text-align: center;
+        height: 200px;
+    }
+
+    main 
+    {
+        width: auto;
+        height: 800px;
+    }
+    /* header */
+    .headText
+    {
+        color: white;
+        font-size: 28px;
+    }
+    /* header content */
+    .mainClock span
+    {
+        font-size: 22px;
+        color: white;
+        font-style: monospace;
+    }
+
+
+    /* menubar */
+    .menuIcon
+    {
+        left: 0px;
+        display: inline-block;
+        position: fixed;
+    }
+
+    .menuIcon img
+    {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background-color: #C3BA47;
+    }
+    .slideMenu
+    {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    }
+    .slideMenu a 
+    {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    }
+
+    .slideMenu a:hover 
+    {
+    color: #f1f1f1;
+    }
+    
+    .slideMenu .closebtn 
+    {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    }
+    
+    @media screen and (max-height: 450px) 
+    {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+    }
+
+
+    /* body content */
+    /* .bodySection
+    {
+
+    } */
+
+    .mainSection
+    {
+        text-align: center;
+        padding: 25px;
+        color: white;
+    }
+
+    .content
+    {
+        text-align: center;
+        color: white;
+    }
+
+    .content img 
+    {
+        max-width: 375px;
+        max-height: 500px;
+    }
+
+    /* footer */
+    .allFooter 
+    {
+        display: block;
+        color: white;
+        bottom: 0;
+        width: auto;
+        height: 80px;
+        background-color: #0C0C0C;
+    }
+
 }
