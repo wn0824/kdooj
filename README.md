@@ -12,3 +12,7 @@ hello! this is my sketchbook.
 -delete Table(LuckyNumber).<br>
 -css little arragement(footer, menubar).<br>
 -make button in mainSection.<br>
+
+2020-06-04<br>
+-delete unnecessary content.<br>
+-add slide menu. (reference for W3SHOOL)<br>
