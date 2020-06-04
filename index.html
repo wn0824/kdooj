@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,38 +16,35 @@
             <span class="writeClock">00:00</span>
         </div>
     </header>
-
-    <div class="menubarDiv">
-        <div class="header_menubar">
-            <label class="menu" for="toggle">
-                <img src="./css/img/menu.svg" class="menu" alt="메뉴바 열기 닫기" onclick="firstMenubar()">
-            </label>
-
-            <input type="checkbox" id="toggle" />
-            <nav class="menubar">
-                <ul>
-                    <li><a href="./index.html">MainTitle</a></li>
-                    <li><a href="#">progress...</a></li>
-                    <li><a href="#">progress...</a></li>
-                    <li><a href="#">progress...</a></li>
-                </ul>
-            </nav>
-        </div>
+    <div class="slideMenu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+        <ul>
+            <li><a href="./index.html">MainTitle</a></li>
+            <li><a href="#">progress...</a></li>
+            <li><a href="#">progress...</a></li>
+            <li><a href="#">progress...</a></li>
+        </ul>
     </div>
-
-    <div class="bodySection">
-        <section class="mainSection">
-            <h1>Simple Test</h1>
-        </section>
-        <div class="content">
-            
-        </div>
+    <div class="menuIcon">
+        <img src="./css/img/menu.svg" alt="menu" onclick="openMenu()">
     </div>
+    
+    <main>
+        <div class="bodySection">
+            <section class="mainSection">
+                <h1>Simple Test</h1>
+
+                <section class="content">
+                    <img src="./css/img/body.jpg" alt="img">
+                </section>
+            </section>
+        </div>
+    </main>
 
     <footer class="allFooter">
         <p>made in donkuk.joo</p>
     </footer>
     <script src="./js/mainClock.js"></script>
-    <script src="./js/mainpageMakeTest.js"></script>
+    <script src="./js/slideMenu.js"></script>
 </body>
 </html>
